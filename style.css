@@ -1,0 +1,28 @@
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    background: url(brekinbad.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkgreen;
+}
