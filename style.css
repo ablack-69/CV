@@ -1,28 +1,85 @@
 h2{
-    text-align: center;
+    margin: 5%;
     font-family: Arial, Helvetica, sans-serif;
 }
 p{
     font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: left;
 }
-h3{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center; 
+main {
+    width: 50%;
+  float: left;
+     width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 200px;
+  margin-top: 20px;
 }
-img{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
+
+aside {
+    width: 50%;
+  float: left;
+    width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  
 }
+
+
 h1{
+    border: 5px solid greenyellow;
+    padding: 10px;
+   
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-html{
+body{
     background: url(brekinbad.jpg) no-repeat center fixed;
     background-size: cover;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkgreen;
 }
+img, h2 {
+    border: 5px solid greenyellow;
+    padding: 10px;
+    display: inline-block;
+}
+.material-icons {
+    display: block;
+    margin: 0 auto; /* Centre l'icône horizontalement */
+}
+ul {
+    list-style-type: none; /* Supprime les point */
+    padding: 0; /* Supprime le remplissage par défaut du navigateur */
+}
+
+
+img {
+    display: block;
+    margin: 0; /* Supprimez la marge par défaut du navigateur */
+    border-radius: 50%;
+    float: left; /* Alignez l'image à gauche */
+    transition: width 2s; 
+}
+video {
+    max-width: 100%;
+    height: auto;
+    transition: width 2s;
+    
+}  
+img:hover{
+ 
+        width: 300px;
+     
+}
+video:hover{
+    width: 1000px;
+}
+
+
+/* Media query pour les écrans plus petits, par exemple les tablettes et les téléphones */
+@media only screen and (max-width: 768px) 
+    body {
+        font-size: 14px; /* Réduit la taille de la police pour les écrans plus petits */
+    }
